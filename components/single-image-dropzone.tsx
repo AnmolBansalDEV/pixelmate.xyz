@@ -10,7 +10,7 @@ import { Button } from "./ui/button"
 const variants = {
   base: "relative rounded-md flex justify-center items-center flex-col cursor-pointer min-h-[150px] min-w-[200px] border-4 border-dashed border-gray-300 transition-colors duration-200 ease-in-out",
   image:
-    "border-0 p-0 min-h-0 min-w-0 relative shadow-md bg-slate-900 rounded-md",
+    "border-0 p-0 min-h-0 min-w-0 relative shadow-md rounded-md",
   active: "border-2",
   disabled: "bg-gray-700 cursor-default pointer-events-none bg-opacity-30",
   accept: "border border-blue-500 bg-blue-500 bg-opacity-10",
@@ -132,7 +132,7 @@ const SingleImageDropzone = React.forwardRef<HTMLInputElement, InputProps>(
           {imageUrl ? (
             // Image Preview
             <Image
-              className="object-cover rounded-md size-full"
+              className="object-contain rounded-md size-full"
               src={imageUrl}
               width={200}
               height={200}
