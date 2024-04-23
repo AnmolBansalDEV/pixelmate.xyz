@@ -158,8 +158,8 @@ const SingleImageDropzone = React.forwardRef<HTMLInputElement, InputProps>(
                 void onChange?.(undefined)
               }}
             >
-              <div className="flex items-center justify-center transition-all duration-300 bg-black border border-solid rounded-md size-5 border-white/70 hover:size-6">
-                <X className="text-white/70" width={16} height={16} />
+              <div className="flex items-center justify-center transition-all duration-300 bg-black border border-solid rounded-md size-5 border-white/70 hover:size-6 dark:bg-white">
+                <X className="text-white/70 dark:text-black/70" width={16} height={16} />
               </div>
             </div>
           )}
