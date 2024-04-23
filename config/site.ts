@@ -1,18 +1,12 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "Next.js",
+  name: "PixelMate",
   description:
-    "Beautifully designed components built with Radix UI and Tailwind CSS.",
+    "One stop buddy for designers to help with mundane tasks.",
   mainNav: [
-    {
-      title: "Home",
-      href: "/",
-    },
+    
   ],
   links: {
-    twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/shadcn/ui",
-    docs: "https://ui.shadcn.com",
   },
 }
