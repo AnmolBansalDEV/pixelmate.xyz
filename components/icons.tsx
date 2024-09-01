@@ -1,6 +1,6 @@
 import {
   Moon,
-  SunMedium
+  SunMedium,
   type Icon as LucideIcon,
 } from "lucide-react"
 
